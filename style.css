@@ -106,4 +106,22 @@ header .navbar ul li a:hover{
     header{
         left:120%;
     }
+    #menu{
+        display:  block;
+    }
+    header .toggle{
+        left: 10%;
+    }
+}
+
+@media(max-width:786px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width:400px){
+    header{
+        width: 100vw;
+    }
+
 }
