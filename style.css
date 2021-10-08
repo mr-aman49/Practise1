@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
 :root{
-    --yellow:#f5f924;
-
+    --yellow:#f9f524;
+    --blue:#8024f9;
 }
 
 *{
@@ -31,12 +31,42 @@ html::-webkit-scrollbar-track{
 html::-webkit-slider-thumb{
     background: var(--yellow);
 }
-header{
-    position: fixed;
-}
+
 body{
     background: #111;
     overflow-x: hidden;
+    padding: 35rem;
+}
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+.btn{
+    padding: 3rem 3rem ;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.btn i{
+    padding: 0 .3rem;
+    font-size: 1.8rem;
+}
+.btn:hover{
+    background: var(--yellow);
+}
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom:  .1rem solid #fff4;
+}
+
+.heading span{
+    color:var(--yellow);
 }
 header{
     position: fixed;
@@ -56,7 +86,7 @@ header .user img{
     border-radius: 30%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: 7rem solid var(--blue);
+    border: 7rem solid var(--red);
 }
 header .user .Name{
     font-size: 3.5rem ;
@@ -66,6 +96,7 @@ header .user .post{
     font-size: 2.5rem;
     color: aliceblue;
 }
+
 header .navbar{
     width: 100%;
 }
@@ -96,10 +127,35 @@ header .navbar ul li a:hover{
     z-index: 1000;
     display: none;
 }
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+.home h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.home h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.home h1 span{
+    color: var(--blue);
+}
+.home p{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
 
 @media(max-width:1200px){
     html{
         font-size: 55%;
+    }
+    .home{
+        padding: 1rem 4rem;
     }
 }
 @media (max-width:991px){
@@ -110,7 +166,10 @@ header .navbar ul li a:hover{
         display:  block;
     }
     header .toggle{
-        left: 10%;
+        left: 0%;
+    }
+    body{
+        padding: 0;
     }
 }
 
