@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
 :root{
-    --yellow:#f9f524;
+    --yellow:#24b5f9;
     --blue:#8024f9;
 }
 
@@ -37,7 +37,7 @@ html::-webkit-slider-thumb{
 }
 
 body{
-    background: #111;
+    background: #333;
     overflow-x: hidden;
     padding: 35rem;
 }
@@ -256,6 +256,11 @@ header .navbar ul li a:hover{
     padding-top: 1.5rem;
 }
 
+.education .box-container .box p{
+    font-size: 1rem;
+    color:#fff;
+    padding-top: 1.5rem;
+}
 .portfolio .box-container{
     display: flex;
     align-items: center;
@@ -350,7 +355,7 @@ header .navbar ul li a:hover{
 }
 @media (max-width:991px){
     header{
-        left:120%;
+        left:-120%;
     }
     #menu{
         display:  block;
