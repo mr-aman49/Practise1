@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
 :root{
     --yellow:#24b5f9;
-    --blue:#8024f9;
+    --blue:#24b5f9;
 }
 
 *{
@@ -16,7 +16,7 @@
 
 *::selection{
     background: var(--yellow);
-    color: #333;
+    color: #efeaea;
 }
 
 html{
@@ -29,7 +29,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background: #222;
+    background: #dfdcdc;
 }
 
 html::-webkit-slider-thumb{
@@ -37,7 +37,7 @@ html::-webkit-slider-thumb{
 }
 
 body{
-    background: #333;
+    background: #d3cdcd;
     overflow-x: hidden;
     padding: 35rem;
 }
@@ -50,8 +50,8 @@ section{
 .btn{
   
    padding: 1rem 1rem;
-    background: #333;
-    color: #fff;
+    background: #cdc9c9;
+    color: #3a3838;
     cursor: pointer;
     margin-top: 1rem;
     font-size: 2rem;
@@ -73,7 +73,7 @@ section{
     font-size: 4rem;
     padding: 1rem;
     border-bottom:  .1rem solid #fff4;
-    color:#fff;
+    color:#3d3c3c;
 }
 
 .heading span{
@@ -86,7 +86,7 @@ header{
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background: #1a1a1a;
+    background: #a29f9f;
     display: flex;
     align-items: center;
     flex-flow: column;
@@ -104,7 +104,7 @@ header .user img{
 
 header .user .name{
     font-size: 3.5rem ;
-    color :aliceblue;
+    color :rgb(106, 108, 110);
 }
 
 header .user .post{
@@ -156,12 +156,12 @@ header .navbar ul li a:hover{
 
 .home h3{
     font-size: 2.5rem;
-    color: #fff;
+    color: #585555;
 }
 
 .home h1{
     font-size: 5rem;
-    color: #fff;
+    color: #585555;
 }
 
 .home h1 span{
@@ -170,7 +170,7 @@ header .navbar ul li a:hover{
 
 .home p{
     font-size: 2rem;
-    color: #fff;
+    color: #585555;
     padding: 1rem 0;
 }
 
@@ -196,7 +196,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .info h3 span{
-    color: white;
+    color: #585555;
     padding: 0 .5rem;
 }
 
@@ -222,7 +222,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box h3{
     font-size: 2rem;
-    color: #fff;
+    color: #585555;
 }
 
 .education .box-container{
@@ -252,13 +252,51 @@ header .navbar ul li a:hover{
 
 .education .box-container .box h3{
     font-size: 2rem;
-    color:#fff;
+    color:#585555;
     padding-top: 1.5rem;
 }
 
 .education .box-container .box p{
     font-size: 1rem;
+    color:#1e1d1d;
+    padding-top: 1.5rem;
+}
+
+
+.internship .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+
+.internship .box-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.internship .box-container .box span{
+    font-size: 1.3rem;
+    background:#222;
     color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.internship .box-container .box h3{
+    font-size: 2rem;
+    color:#585555;
+    padding-top: 1.5rem;
+}
+
+.internship .box-container .box p{
+    font-size: 1rem;
+    color:#1e1d1d;
     padding-top: 1.5rem;
 }
 .portfolio .box-container{
@@ -328,7 +366,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .title{
     text-transform: uppercase;
-    color: #fff;
+    color: #585555;
     font-size: 3rem;
     padding-bottom: 2rem;
 }
@@ -337,7 +375,7 @@ header .navbar ul li a:hover{
     display: flex;
     align-items: center;
     font-size: 2rem;
-    color: #fff;
+    color: #585555;
     padding: 1rem 0;
     font-weight: normal;
 }
